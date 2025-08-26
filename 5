@@ -1,0 +1,28 @@
+public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập tử số của phân số thứ nhất (a): ");
+        int a = sc.nextInt();
+        System.out.print("Nhập mẫu số của phân số thứ nhất (b): ");
+        int b = sc.nextInt();
+
+
+        System.out.print("Nhập tử số của phân số thứ hai (c): ");
+        int c = sc.nextInt();
+        System.out.print("Nhập mẫu số của phân số thứ hai (d): ");
+        int d = sc.nextInt();
+
+
+        if (b == 0 || d == 0) {
+            System.out.println("Lỗi: Mẫu số không được bằng 0.");
+            return;
+        }
+
+
+        int tongTuSo = a * d + b * c;
+        int tongMauSo = b * d;
+
+
+        System.out.println("Tổng của hai phân số là:");
+        System.out.println("(" + tongTuSo + "/" + tongMauSo + ")");
+
+    }};
