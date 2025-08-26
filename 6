@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhập chiều dài: ");
+        double chieuDai = sc.nextDouble();
+
+        System.out.println("Nhập chiều rộng: ");
+        double chieuRong = sc.nextDouble();
+
+        double dienTich = chieuDai*chieuRong;
+        double chuVi =  2*(chieuDai+chieuRong);
+
+        System.out.printf("Chu vi là : %.2f%n", chuVi);
+        System.out.printf("Diện Tích là : %.2f", dienTich);
+    }};
